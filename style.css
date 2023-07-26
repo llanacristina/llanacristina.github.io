@@ -1,58 +1,71 @@
-*{
+* {
     /* margin: 0px;
     padding: 0px; */
     box-sizing: border-box;
 }
-body{
-      /* margin: 0;
-    padding: 0;  */
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.header{
+
+.header {
     display: flex;
     align-items: center;
     padding: 10px;
 }
-.img img{
+
+.img img {
     flex: 1;
     height: 20%;
     width: 40%;
 }
-.dados{
+
+.dados {
     flex: 1;
 }
-#sintese p{
+
+#sintese p {
     text-align: justify;
 }
 
-h5{
+h5 {
     text-align: center;
 }
-h4{
+
+h4 {
     border-bottom: solid 1px black;
     margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
 }
+
 .competencias {
-    display: flex; 
-    justify-content: space-between; 
-    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     align-items: center;
 }
 
-.tecnicas, .comportamentais {
-    flex: 0.5; /* Define que cada div ocupará a mesma largura disponível */
+.tecnicas,
+.comportamentais {
+    flex: 0.5;
+    /* Define que cada div ocupará a mesma largura disponível */
 }
-.tecnicas ul, .comportamentais ul {
-   align-content: center;
+
+.tecnicas ul,
+.comportamentais ul {
+    align-content: center;
 }
 
+.contato img {
+    width: 30px;
+}
 
-
-
-
-
+.expec {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
